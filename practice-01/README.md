@@ -1,15 +1,7 @@
-# Технологии индустриального программирования
-
-Учебный репозиторий практических работ по JavaScript.
-
 ## Автор
 
 Имя: Когай Максим
 Группа: ЭФБО-06-25
-
-## Практические работы
-
-- [Практическая работа № 1](./practice-01/README.md)
 
 ## Окружение
 
@@ -62,7 +54,6 @@
 | Обработка количества задач | В Scope: `completedText: "3"`, `additionalText: "2"` — обе строки; `completedTotal = "32"` (конкатенация), `remainingTasks = -24` | Оператор `+` со строками делает конкатенацию, а не сложение | Явное приведение: `Number(completedText) + Number(additionalText)` | `completedTotal = 5`, `remainingTasks = 3` |
 | Граница цикла | `controlSum = 6`; в цикле `taskNumber` принимал значения 1, 2, 3 и остановился | Условие `taskNumber < 4` не включает 4 | Заменил на `taskNumber <= 4` | `controlSum = 10` |
 
-
 ## Запуск
 
 Из корня репозитория:
@@ -73,3 +64,4 @@ node practice-01/js/types.js
 node practice-01/js/progress.js
 node practice-01/js/plan.js
 node practice-01/js/debug.js
+```
